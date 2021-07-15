@@ -24,7 +24,7 @@ import {
 } from '../reducers/post';
 import FollowButton from './FollowButton';
 
-moment.locale('ko');
+moment.locale();
 
 const PostCard = ({ post }) => {
   const dispatch = useDispatch();
